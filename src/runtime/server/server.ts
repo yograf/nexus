@@ -55,7 +55,7 @@ export function create(appState: AppState) {
 
   const api: Server = {
     raw: {
-      http: state.httpServer,
+      http: settings.data.httpServer,
     },
     express,
     handlers: {
